@@ -141,7 +141,7 @@ class GSpotMichael
       DarkVibrant: @DarkVibrantSwatch,
       DarkMuted: @DarkMutedSwatch,
       LightVibrant: @LightVibrantSwatch,
-      LightMuted: @LightMuted
+      LightMuted: @LightMutedSwatch
     }
   end
 
