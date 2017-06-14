@@ -1,7 +1,7 @@
 require 'timeout'
 require 'open3'
 
-class GSpotMichael
+class Vibrant
 
   TARGET_DARK_LUMA = 0.26
   MAX_DARK_LUMA = 0.45
