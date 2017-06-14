@@ -1,4 +1,4 @@
-G Spot Michael
+Vibrant
 ==============
 A Ruby port of [Vibrant.js](https://jariz.github.io/vibrant.js/).
 
@@ -11,19 +11,19 @@ Extracts prominent colors from a provided image.
 ## Installation
 
 ```sh
-gem install g-spot-michael
+gem install vibrant
 ```
 
 ## Usage
 
 ```ruby
-require 'g-spot-michael'
+require 'vibrant'
 
 # Open up an image file
 
-g_spot = GSpotMichael.new(File.open('someimage.jpg', 'r'))
+vibrant = Vibrant.new(File.open('someimage.jpg', 'r'))
 
-g_spot.swatches # returns 'swatches' for the different prominent colors
+vibrant.swatches # returns 'swatches' for the different prominent colors
 
 ```
 
